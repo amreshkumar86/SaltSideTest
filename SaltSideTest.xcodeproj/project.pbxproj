@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		E809E7121CAD5C410052F072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E809E7111CAD5C410052F072 /* main.m */; };
 		E809E7151CAD5C410052F072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E809E7141CAD5C410052F072 /* AppDelegate.m */; };
-		E809E7181CAD5C410052F072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E809E7171CAD5C410052F072 /* ViewController.m */; };
 		E809E71B1CAD5C410052F072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E809E7191CAD5C410052F072 /* Main.storyboard */; };
 		E809E71D1CAD5C410052F072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E809E71C1CAD5C410052F072 /* Assets.xcassets */; };
 		E809E7201CAD5C410052F072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E809E71E1CAD5C410052F072 /* LaunchScreen.storyboard */; };
+		E877AD5D1CAFC39E00B1F140 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E877AD5C1CAFC39E00B1F140 /* ItemsViewController.m */; };
+		E877AD601CAFC3DE00B1F140 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E877AD5F1CAFC3DE00B1F140 /* ItemDetailViewController.m */; };
+		E877AD631CAFC40F00B1F140 /* ItemsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E877AD621CAFC40F00B1F140 /* ItemsTableCell.m */; };
+		E877AD661CAFC42100B1F140 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E877AD651CAFC42100B1F140 /* NetworkManager.m */; };
+		E877AD691CAFC42D00B1F140 /* ItemsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E877AD681CAFC42D00B1F140 /* ItemsManager.m */; };
+		E877AD6C1CAFC44200B1F140 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E877AD6B1CAFC44200B1F140 /* FileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,22 @@
 		E809E7111CAD5C410052F072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E809E7131CAD5C410052F072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E809E7141CAD5C410052F072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E809E7161CAD5C410052F072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E809E7171CAD5C410052F072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E809E71A1CAD5C410052F072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E809E71C1CAD5C410052F072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E809E71F1CAD5C410052F072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E809E7211CAD5C410052F072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E877AD5B1CAFC39E00B1F140 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		E877AD5C1CAFC39E00B1F140 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		E877AD5E1CAFC3DE00B1F140 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		E877AD5F1CAFC3DE00B1F140 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		E877AD611CAFC40F00B1F140 /* ItemsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsTableCell.h; sourceTree = "<group>"; };
+		E877AD621CAFC40F00B1F140 /* ItemsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsTableCell.m; sourceTree = "<group>"; };
+		E877AD641CAFC42100B1F140 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		E877AD651CAFC42100B1F140 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		E877AD671CAFC42D00B1F140 /* ItemsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsManager.h; sourceTree = "<group>"; };
+		E877AD681CAFC42D00B1F140 /* ItemsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsManager.m; sourceTree = "<group>"; };
+		E877AD6A1CAFC44200B1F140 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		E877AD6B1CAFC44200B1F140 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +73,12 @@
 		E809E70F1CAD5C410052F072 /* SaltSideTest */ = {
 			isa = PBXGroup;
 			children = (
+				E877AD561CAFC37800B1F140 /* Managers */,
+				E877AD571CAFC37800B1F140 /* Utils */,
+				E877AD581CAFC37800B1F140 /* ViewControllers */,
+				E877AD591CAFC37800B1F140 /* Views */,
 				E809E7131CAD5C410052F072 /* AppDelegate.h */,
 				E809E7141CAD5C410052F072 /* AppDelegate.m */,
-				E809E7161CAD5C410052F072 /* ViewController.h */,
-				E809E7171CAD5C410052F072 /* ViewController.m */,
 				E809E7191CAD5C410052F072 /* Main.storyboard */,
 				E809E71C1CAD5C410052F072 /* Assets.xcassets */,
 				E809E71E1CAD5C410052F072 /* LaunchScreen.storyboard */,
@@ -77,6 +94,54 @@
 				E809E7111CAD5C410052F072 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E877AD561CAFC37800B1F140 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E877AD641CAFC42100B1F140 /* NetworkManager.h */,
+				E877AD651CAFC42100B1F140 /* NetworkManager.m */,
+				E877AD671CAFC42D00B1F140 /* ItemsManager.h */,
+				E877AD681CAFC42D00B1F140 /* ItemsManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E877AD571CAFC37800B1F140 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E877AD6A1CAFC44200B1F140 /* FileManager.h */,
+				E877AD6B1CAFC44200B1F140 /* FileManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E877AD581CAFC37800B1F140 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E877AD5B1CAFC39E00B1F140 /* ItemsViewController.h */,
+				E877AD5C1CAFC39E00B1F140 /* ItemsViewController.m */,
+				E877AD5E1CAFC3DE00B1F140 /* ItemDetailViewController.h */,
+				E877AD5F1CAFC3DE00B1F140 /* ItemDetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E877AD591CAFC37800B1F140 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E877AD5A1CAFC37800B1F140 /* CustomCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E877AD5A1CAFC37800B1F140 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				E877AD611CAFC40F00B1F140 /* ItemsTableCell.h */,
+				E877AD621CAFC40F00B1F140 /* ItemsTableCell.m */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E809E7181CAD5C410052F072 /* ViewController.m in Sources */,
+				E877AD5D1CAFC39E00B1F140 /* ItemsViewController.m in Sources */,
+				E877AD691CAFC42D00B1F140 /* ItemsManager.m in Sources */,
+				E877AD631CAFC40F00B1F140 /* ItemsTableCell.m in Sources */,
+				E877AD6C1CAFC44200B1F140 /* FileManager.m in Sources */,
 				E809E7151CAD5C410052F072 /* AppDelegate.m in Sources */,
+				E877AD601CAFC3DE00B1F140 /* ItemDetailViewController.m in Sources */,
+				E877AD661CAFC42100B1F140 /* NetworkManager.m in Sources */,
 				E809E7121CAD5C410052F072 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +368,7 @@
 				E809E7261CAD5C410052F072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
