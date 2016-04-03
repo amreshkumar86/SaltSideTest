@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class Item;
 @interface ItemDetailViewController : UITableViewController
-
+@property (nonatomic, retain) Item *item;
 @end

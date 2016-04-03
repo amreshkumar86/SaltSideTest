@@ -31,17 +31,17 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvO-YE-6TO">
-                                            <rect key="frame" x="116" y="26" width="476" height="21"/>
+                                            <rect key="frame" x="116" y="9" width="476" height="48"/>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="4lT-Ls-CXS"/>
+                                                <constraint firstAttribute="height" constant="48" id="4lT-Ls-CXS"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1a-7J-jT4">
-                                            <rect key="frame" x="116" y="55" width="476" height="21"/>
+                                            <rect key="frame" x="116" y="65" width="476" height="21"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -57,7 +57,7 @@
                                         <constraint firstItem="RvO-YE-6TO" firstAttribute="trailing" secondItem="k9G-Tn-wWq" secondAttribute="trailingMargin" id="mtI-mi-4if"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="nor-DO-zjM" secondAttribute="bottom" constant="3" id="ocN-Gg-EQz"/>
                                         <constraint firstItem="nor-DO-zjM" firstAttribute="top" secondItem="k9G-Tn-wWq" secondAttribute="topMargin" id="rcL-x4-yyS"/>
-                                        <constraint firstItem="RvO-YE-6TO" firstAttribute="top" secondItem="k9G-Tn-wWq" secondAttribute="topMargin" constant="18" id="tPg-uO-ada"/>
+                                        <constraint firstItem="RvO-YE-6TO" firstAttribute="top" secondItem="k9G-Tn-wWq" secondAttribute="topMargin" constant="1" id="tPg-uO-ada"/>
                                         <constraint firstItem="RvO-YE-6TO" firstAttribute="leading" secondItem="nor-DO-zjM" secondAttribute="trailing" constant="8" symbolic="YES" id="y6J-ag-lSd"/>
                                     </constraints>
                                 </tableViewCellContentView>
