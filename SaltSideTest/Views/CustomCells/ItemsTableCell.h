@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Item.h"
 @interface ItemsTableCell : UITableViewCell
 
+- (void)loadItem:(Item*)item;
 @end

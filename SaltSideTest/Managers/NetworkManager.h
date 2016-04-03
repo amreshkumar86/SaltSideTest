@@ -10,4 +10,7 @@
 
 @interface NetworkManager : NSObject
 
++ (instancetype)sharedManager;
+
+- (void)downloadDataFromRemoteURL:(NSURL*)remoteURL onCompleted:(void(^)(NSError* error,id response))completionBlock;
 @end

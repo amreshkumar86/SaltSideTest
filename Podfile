@@ -3,6 +3,8 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+pod 'JSONModel'
+pod 'SDWebImage', '~>3.6'
 target 'SaltSideTest' do
 
 end

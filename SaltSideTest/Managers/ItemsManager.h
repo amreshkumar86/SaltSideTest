@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @interface ItemsManager : NSObject
 
++ (instancetype)sharedManager;
+
+- (void)getItemsOnCompletion:(void(^)(NSError* error,NSArray* items))completionBlock;
 @end

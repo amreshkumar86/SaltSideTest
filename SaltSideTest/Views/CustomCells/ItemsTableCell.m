@@ -10,4 +10,7 @@
 
 @implementation ItemsTableCell
 
+- (void)loadItem:(Item*)item {
+    
+}
 @end

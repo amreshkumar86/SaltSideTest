@@ -7,7 +7,36 @@
 //
 
 #import "ItemsViewController.h"
+#import "ItemsManager.h"
+#import "ItemsTableCell.h"
+
+@interface ItemsViewController()
+{
+    NSArray *allItems;
+}
+@end
 
 @implementation ItemsViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    allItems = @[];
+    [[ItemsManager sharedManager] getItemsOnCompletion:^(NSError *error, NSArray *items) {
+        if(!error) {
+            allItems = items;
+            [self.tableView reloadData];
+        }
+    }];
+}
+
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    ItemsTableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"itemsListCellIdentifier"
+                                                           forIndexPath:indexPath];
+    
+    [cell loadItem:allItems[indexPath.row]];
+    
+    return cell;
+}
 @end
