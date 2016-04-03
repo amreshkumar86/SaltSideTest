@@ -32,11 +32,15 @@
 
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    ItemsTableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"itemsListCellIdentifier"
+    ItemsTableCell *cell = [tableView dequeueReusableCellWithIdentifier:@"itemCellIdentifier"
                                                            forIndexPath:indexPath];
     
     [cell loadItem:allItems[indexPath.row]];
     
     return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return allItems.count;
 }
 @end

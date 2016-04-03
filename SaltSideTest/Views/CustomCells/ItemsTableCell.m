@@ -7,10 +7,21 @@
 //
 
 #import "ItemsTableCell.h"
+#import "UIImageView+WebCache.h"
+@interface ItemsTableCell()
+{
+    IBOutlet UIImageView *itemImage;
+    IBOutlet UILabel *itemName, *itemDescription;
+}
+
+@end
 
 @implementation ItemsTableCell
 
 - (void)loadItem:(Item*)item {
     
+    itemName.text = item.itemName;
+    itemDescription.text = item.itemDescription;
+    [itemImage sd_setImageWithURL:[NSURL URLWithString:item.itemImageURL]];
 }
 @end
