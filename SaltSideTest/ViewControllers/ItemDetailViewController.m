@@ -81,10 +81,12 @@
         height = 250;
     }
     else if(indexPath.row == 1) {
-        height = [self getHeightForText:self.item.itemName withFont:font andWidth:self.tableView.bounds.size.width - 100];
+        CGFloat estimatedHeight = [self getHeightForText:self.item.itemName withFont:font andWidth:self.tableView.bounds.size.width - 100];
+        height = estimatedHeight < height ? height : estimatedHeight;
     }
     else if(indexPath.row == 2) {
-        height = [self getHeightForText:self.item.itemDescription withFont:font andWidth:self.tableView.bounds.size.width - 100];
+        CGFloat estimatedHeight = [self getHeightForText:self.item.itemDescription withFont:font andWidth:self.tableView.bounds.size.width - 100];
+        height = estimatedHeight < height ? height : estimatedHeight;
     }
     return height;
 }

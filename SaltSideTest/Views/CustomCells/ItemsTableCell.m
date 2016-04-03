@@ -24,9 +24,6 @@
     itemName.lineBreakMode = NSLineBreakByWordWrapping;
     itemName.numberOfLines = 0;
     itemDescription.text = item.itemDescription;
-    [itemImage sd_setImageWithURL:[NSURL URLWithString:item.itemImageURL] placeholderImage:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        NSLog(@"%@",imageURL);
-        NSLog(@"%f:%f",image.size.width,image.size.height);
-    }];
+    [itemImage sd_setImageWithURL:[NSURL URLWithString:item.itemImageURL]];
 }
 @end
